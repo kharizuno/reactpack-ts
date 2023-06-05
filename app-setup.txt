@@ -53,7 +53,7 @@ SETUP REACT
 	- app.js, app-test.js (folder components)
 	- index.css, app.css, logo.svg (folder style)
 	
-- npm install react-app-env react-router-dom react-redux react-router-redux 
+- npm install env-cmd react-router-dom react-redux react-router-redux 
 - npm install redux redux-thunk redux-promise-middleware
 - mkdir config and create file .env.production / .env.staging
 
