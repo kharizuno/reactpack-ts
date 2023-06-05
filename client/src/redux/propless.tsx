@@ -1,6 +1,6 @@
 import { arrayCheck } from "../helpers";
 
-export function propLess (action, state, data) {
+export function propLess (action: any, state: any, data: any) {
     let dt = action.payload;
     if (dt.unmount === undefined) {
         if (Object.keys(state[data]).length > 0) {
